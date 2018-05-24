@@ -3,7 +3,7 @@ project(PierwszyProgram)
 add_executable(Laborka main.cpp)
 
 option(USE_TRIGONOMETRY_DEGREE
-"Czy argumentami funkcji sa stopnie" OFF)
+"Czy argumentami funkcji sa stopnie" ON)
 if (USE_TRIGONOMETRY_DEGREE)
 include_directories("${PROJECT_SOURCE_DIR}/Trygonometria")
 add_subdirectory(Trygonometria)
